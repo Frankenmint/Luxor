@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  kvm-manager:
+    build: .
+    container_name: kvm-manager
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./config.json:/app/config.json
+    environment:
+      - CONFIG_PATH=/app/config.json
+    restart: unless-stopped
