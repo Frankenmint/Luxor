@@ -107,7 +107,7 @@ Extend `syncWithInfra()` to send emails, webhooks, or Slack updates.
 ---
 
 ## 📄 License
-MIT or whatever you choose
+MIT I guess
 
 ---
 
