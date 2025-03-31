@@ -1,0 +1,20 @@
+# Go binaries
+kvm-manager
+*.exe
+*.out
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# DB
+*.db
+
+# Dependency dirs
+vendor/
+
+# Configs
+config.json
+
+# Logs
+*.log
